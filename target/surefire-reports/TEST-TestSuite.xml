@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="63.505" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\QA JDK and Eclipse Tools\Selenium_Workspace\FreeCRMTest\target\test-classes;F:\QA JDK and Eclipse Tools\Selenium_Workspace\FreeCRMTest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire7730319769132863740\surefirebooter10171118475276980177.jar C:\Windows\Temp\surefire7730319769132863740 2022-09-26T14-02-14_484-jvmRun1 surefire2599414077704204536tmp surefire_05829321013696221329tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\QA JDK and Eclipse Tools\Selenium_Workspace\FreeCRMTest\target\test-classes;F:\QA JDK and Eclipse Tools\Selenium_Workspace\FreeCRMTest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\QA JDK and Eclipse Tools\Selenium_Workspace\FreeCRMTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire7730319769132863740\surefirebooter10171118475276980177.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="LENOVO-PC$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="F:\QA JDK and Eclipse Tools\Selenium_Workspace\FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="F:/QA JDK and Eclipse Tools/Seleniumjars/geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;F:\QA JDK and Eclipse Tools\apache-ant-1.10.12-bin\apache-ant-1.10.12\bin;F:\QA JDK and Eclipse Tools\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Common Files\Oracle\Java\javapath;F:\Jenkins\bin;C:\Program Files\Java\jdk-17.0.4.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.testcases.ContactsPageTest" time="0.121">
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+Trying to find Element By : By.xpath: //span[contains(text(),'Log In')]
+Found Element By : By.xpath: //span[contains(text(),'Log In')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (10ea887b-da10-43ca-bbff-526d3006292d)] -> xpath: //span[contains(text(),'Log In')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (10ea887b-da10-43ca-bbff-526d3006292d)] -> xpath: //span[contains(text(),'Log In')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (10ea887b-da10-43ca-bbff-526d3006292d)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (10ea887b-da10-43ca-bbff-526d3006292d)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (10ea887b-da10-43ca-bbff-526d3006292d)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (10ea887b-da10-43ca-bbff-526d3006292d)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+Found Element By : By.xpath: //div[@class='ui header item mb5 light-black']
+]]></system-out>
+    <system-err><![CDATA[1664215341778	geckodriver	INFO	Listening on 127.0.0.1:26755
+1664215342291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofilenUa6V4"
+1664215343183	Marionette	INFO	Marionette enabled
+1664215343207	Marionette	INFO	Listening on port 61708
+Read port: 61708
+1664215343855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RcANGLE(swap chain create failed 887a0022)
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofilenUa6V4\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+Sep 26, 2022 2:02:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.testcases.HomePageTest" time="0">
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+Trying to find Element By : By.xpath: //span[contains(text(),'Log In')]
+Found Element By : By.xpath: //span[contains(text(),'Log In')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (81031e88-fede-469b-b60d-96e3c2317d6c)] -> xpath: //span[contains(text(),'Log In')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (81031e88-fede-469b-b60d-96e3c2317d6c)] -> xpath: //span[contains(text(),'Log In')]]
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (81031e88-fede-469b-b60d-96e3c2317d6c)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (81031e88-fede-469b-b60d-96e3c2317d6c)] -> xpath: //div[@class='ui fluid large blue submit button']]
+]]></system-out>
+    <system-err><![CDATA[1664215365888	Marionette	INFO	Stopped listening on port 61708
+1664215369684	geckodriver	INFO	Listening on 127.0.0.1:3170
+1664215370186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileEQPSBA"
+1664215370638	Marionette	INFO	Marionette enabled
+1664215370646	Marionette	INFO	Listening on port 57343
+Read port: 57343
+1664215370762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RcANGLE(swap chain create failed 887a0022)
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofileEQPSBA\\search.json.mozlz4", (void 0)))
+Sep 26, 2022 2:02:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.crm.testcases.LoginPageTest" time="0">
+    <system-out><![CDATA[Before navigating to: 'https://www.freecrm.com/'
+Navigated to:'https://www.freecrm.com/'
+]]></system-out>
+    <system-err><![CDATA[1664215383569	Marionette	INFO	Stopped listening on port 57343
+1664215387023	geckodriver	INFO	Listening on 127.0.0.1:26975
+1664215387516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile3lvf8c"
+1664215388076	Marionette	INFO	Marionette enabled
+1664215388084	Marionette	INFO	Listening on port 57416
+Read port: 57416
+1664215388200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RcANGLE(swap chain create failed 887a0022)
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\WINDOWS\\TEMP\\rust_mozprofile3lvf8c\\search.json.mozlz4", (void 0)))
+Sep 26, 2022 2:03:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T18:02:20Z" name="Surefire suite" finished-at="2022-09-26T18:03:23Z" duration-ms="62879">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T18:02:20Z" name="Surefire test" finished-at="2022-09-26T18:03:23Z" duration-ms="62879">
+      <class name="com.crm.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.testcases.HomePageTest@17776a8]" started-at="2022-09-26T18:02:49Z" name="setUp" finished-at="2022-09-26T18:03:03Z" duration-ms="13920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.testcases.HomePageTest@17776a8]" started-at="2022-09-26T18:03:03Z" name="verifyHomePageTitleTest" finished-at="2022-09-26T18:03:03Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.testcases.HomePageTest@17776a8]" started-at="2022-09-26T18:03:03Z" name="tearDown" finished-at="2022-09-26T18:03:06Z" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.testcases.HomePageTest -->
+      <class name="com.crm.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.testcases.ContactsPageTest@12028586]" started-at="2022-09-26T18:02:20Z" name="setUp" finished-at="2022-09-26T18:02:45Z" duration-ms="24899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.crm.testcases.ContactsPageTest@12028586]" started-at="2022-09-26T18:02:45Z" name="verifyContactsPageLabel" finished-at="2022-09-26T18:02:45Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.testcases.ContactsPageTest@12028586]" started-at="2022-09-26T18:02:45Z" name="tearDown" finished-at="2022-09-26T18:02:49Z" duration-ms="3739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.testcases.ContactsPageTest -->
+      <class name="com.crm.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.testcases.LoginPageTest@69a10787]" started-at="2022-09-26T18:03:06Z" name="setUp" finished-at="2022-09-26T18:03:19Z" duration-ms="12250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.testcases.LoginPageTest@69a10787]" started-at="2022-09-26T18:03:19Z" name="loginPageTitleTest" finished-at="2022-09-26T18:03:19Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.testcases.LoginPageTest@69a10787]" started-at="2022-09-26T18:03:19Z" name="tearDown" finished-at="2022-09-26T18:03:23Z" duration-ms="4446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.testcases.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
